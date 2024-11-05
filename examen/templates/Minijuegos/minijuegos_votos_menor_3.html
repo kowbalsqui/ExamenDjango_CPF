@@ -1,0 +1,17 @@
+<html>
+    <head></head>
+    <body>
+        <h1>MINIJUEGOS CON PUNTUACION MENOR QUE 3:</h1>
+        <p>---------------------------------------------------------------------------------</p>
+        <div>
+            {% for minijuego in minijuego %}
+            <h2>Nombre: {{ minijuego.nombre }}</h2>
+            <h2>descripcion: {{ minijuego.descripcion }}</h2>
+            <h2>Plataforma: {{ minijuego.plataforma }}</h2>
+            <h2>Fecha de lanzamiento: {{ minijuego.fecha_lanzamiento }}</h2>
+        </div>
+        <p>---------------------------------------------------------------------------------</p>
+        <br>
+        {% endfor %}
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Usuarios que nunca votaron:</h1>
+        <p>---------------------------------------------------------------------------------</p>
+        <div>
+            {% for usuario in usuario %}
+            <h2>Nombre: {{ usuario.nombre }}</h2>
+            <h2>Apellidos: {{ usuario.apellidos }}</h2>
+            <h2>Fecha de nacimiento: {{ usuario.fecha_nacimiento }}</h2>
+            <h2>Edad: {{ usuario.edad }}</h2>
+            <h2>Correo: {{ usuario.correo }}</h2>
+            <h2>Cuenta Bancaria: {{usuario.cuenta_bancaria.numero_cuenta}}</h2>
+        </div>
+        <p>---------------------------------------------------------------------------------</p>
+        <br>
+        {% endfor %}
+    </body>
+</html>

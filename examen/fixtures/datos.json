@@ -1,0 +1,571 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add mini juego",
+        "content_type": 7,
+        "codename": "add_minijuego"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change mini juego",
+        "content_type": 7,
+        "codename": "change_minijuego"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete mini juego",
+        "content_type": 7,
+        "codename": "delete_minijuego"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view mini juego",
+        "content_type": 7,
+        "codename": "view_minijuego"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add voto",
+        "content_type": 8,
+        "codename": "add_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change voto",
+        "content_type": 8,
+        "codename": "change_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete voto",
+        "content_type": 8,
+        "codename": "delete_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view voto",
+        "content_type": 8,
+        "codename": "view_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cuenta_ bancaria",
+        "content_type": 9,
+        "codename": "add_cuenta_bancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cuenta_ bancaria",
+        "content_type": 9,
+        "codename": "change_cuenta_bancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cuenta_ bancaria",
+        "content_type": 9,
+        "codename": "delete_cuenta_bancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cuenta_ bancaria",
+        "content_type": 9,
+        "codename": "view_cuenta_bancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 10,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 10,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 10,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 10,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add votos_de_los_minijuegos",
+        "content_type": 11,
+        "codename": "add_votos_de_los_minijuegos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change votos_de_los_minijuegos",
+        "content_type": 11,
+        "codename": "change_votos_de_los_minijuegos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete votos_de_los_minijuegos",
+        "content_type": 11,
+        "codename": "delete_votos_de_los_minijuegos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view votos_de_los_minijuegos",
+        "content_type": 11,
+        "codename": "view_votos_de_los_minijuegos"
+    }
+},
+{
+    "model": "examen.minijuego",
+    "pk": 1,
+    "fields": {
+        "nombre": "Metal Slug",
+        "descripcion": "Serie de juegos de disparo en tercera persona y plataformas desarrollada por SNK.",
+        "fecha_lanzamiento": "1996-07-20"
+    }
+},
+{
+    "model": "examen.minijuego",
+    "pk": 2,
+    "fields": {
+        "nombre": "Teenage Mutant Ninja Turtles",
+        "descripcion": "En este juego, los jugadores pueden controlar a las cuatro tortugas ninja - Leonardo, Donatello, Michelangelo y Raphael - en una aventura por la ciudad de Nueva York para derrotar a los enemigos y rescatar a sus amigos.",
+        "fecha_lanzamiento": "1991-09-18"
+    }
+},
+{
+    "model": "examen.minijuego",
+    "pk": 3,
+    "fields": {
+        "nombre": "Street Fighter",
+        "descripcion": "Street Fighter (ストリートファイター Sutorîto Faitâ?) es un videojuego de pelea desarrollado por Capcom en 1987.",
+        "fecha_lanzamiento": "1987-08-30"
+    }
+},
+{
+    "model": "examen.cuenta_bancaria",
+    "pk": 1,
+    "fields": {
+        "numero_cuenta": 1111,
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examen.cuenta_bancaria",
+    "pk": 2,
+    "fields": {
+        "numero_cuenta": 2222,
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examen.cuenta_bancaria",
+    "pk": 3,
+    "fields": {
+        "numero_cuenta": 3333,
+        "banco": "ING"
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Carlos",
+        "apellidos": "Perea Figuera",
+        "fecha_nacimiento": "2005-12-01",
+        "edad": "18",
+        "correo": "carlos@examen.com",
+        "cuenta_bancaria": 1
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Alvaro",
+        "apellidos": "Conde Soria",
+        "fecha_nacimiento": "2004-09-13",
+        "edad": "20",
+        "correo": "alvaro@examen.com",
+        "cuenta_bancaria": 3
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Aaron",
+        "apellidos": "Salvador Martin Galvin",
+        "fecha_nacimiento": "2001-12-16",
+        "edad": "23",
+        "correo": "aaron@examen.com",
+        "cuenta_bancaria": 2
+    }
+},
+{
+    "model": "examen.voto",
+    "pk": 1,
+    "fields": {
+        "puntuacion": 4,
+        "comentario": "El juego esta muy chulo, uno de los mejores de todo el tiempo",
+        "fecha_hora": "2008-08-05",
+        "usuario_voto": 3
+    }
+},
+{
+    "model": "examen.voto",
+    "pk": 2,
+    "fields": {
+        "puntuacion": 5,
+        "comentario": "Esta muy bien en tema de diseño y de rendimeinto, me encanta",
+        "fecha_hora": "2009-04-12",
+        "usuario_voto": 2
+    }
+},
+{
+    "model": "examen.voto",
+    "pk": 3,
+    "fields": {
+        "puntuacion": 5,
+        "comentario": "El mejor juego de todos los tiempos, 10/10",
+        "fecha_hora": "2010-01-19",
+        "usuario_voto": 1
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 1,
+    "fields": {
+        "id_voto": 1,
+        "id_minijuego": 1
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 2,
+    "fields": {
+        "id_voto": 2,
+        "id_minijuego": 1
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 3,
+    "fields": {
+        "id_voto": 2,
+        "id_minijuego": 2
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 4,
+    "fields": {
+        "id_voto": 3,
+        "id_minijuego": 3
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 5,
+    "fields": {
+        "id_voto": 2,
+        "id_minijuego": 3
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 6,
+    "fields": {
+        "id_voto": 1,
+        "id_minijuego": 2
+    }
+},
+{
+    "model": "examen.votos_de_los_minijuegos",
+    "pk": 7,
+    "fields": {
+        "id_voto": 1,
+        "id_minijuego": 2
+    }
+}
+]
